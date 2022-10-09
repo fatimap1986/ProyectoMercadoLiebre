@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body {font-family: 'Roboto', sans serif;
+    background-color: #ebebeb}
+
+h3 {font-size: 24px}
+
+p {font-size: 12px}
+
+.top-header {padding: 5%}
+          
+header {display: flex;
+        flex-direction: column;
+        background-color: #EAC926;
+        width: 100%}
+
+        .logo-search {display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      margin: 20px}
+
+                               .header-info {display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: space-around}
+.enlaces {display: flex;
+          align-items: center;
+          justify-content: space-around}
+
+          .lista-articulos {display:flex;
+                            align-items: center}
+                                    
+.logo {width: 50%}
+
+.search {width: 50%}
+
+header nav {font-size: 12px}
+
+.burger-menu i {background-color: #03264C;
+    color: #ebebeb;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 30px}
+
+    main {width: 90%}
+
+.articulos {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    width: 20%;
+    margin: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 20px;
+    box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 )}
+
+    .icono {display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        right: 20px;
+        top: -15px;}
+
+    .precio-descuento {display: flex}
+     
+    .precio {width: 70%}
+
+    .descuento {width: 30%}
+
+    .piedepagina {text-align: center}
+
+    @media (min-width: 361px) {.lista-articulos {display: flex;
+                                                 flex-direction: row;
+                                                 flex-wrap: wrap;
+                                                 justify-content: space-between;
+                                                 align-items: flex-start}};
+   
+    @media (max-width: 480px) {main {width: 22%; flex-wrap: wrap}};
+
+    @media (max-width: 768px) {main {width: 45%; flex-wrap: wrap}};
+
+@media (min-width: 769px) {
+        .articulos {box-shadow : 0px 0px 10px 0px rgba(100,100,100,0.75)}; 
+        .burger-menu i {display: none};
+        .descripcion {opacity: 0};
+        .descripcion :hover {opacity: 1}}
+        
+                 
+        
+                
